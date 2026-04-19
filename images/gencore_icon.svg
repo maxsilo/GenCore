@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.0"
+   width="800pt"
+   height="400pt"
+   viewBox="0 0 800 400"
+   preserveAspectRatio="xMidYMid"
+   id="svg2"
+   sodipodi:docname="gencore_icon.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient3"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#074aa0;stop-opacity:1;"
+         offset="0"
+         id="stop3" />
+      <stop
+         style="stop-color:#072d65;stop-opacity:1;"
+         offset="1"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3"
+       id="linearGradient4"
+       x1="2960.9993"
+       y1="1999.9406"
+       x2="1042.9462"
+       y2="1999.9406"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="repeat" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3"
+       id="linearGradient5"
+       gradientUnits="userSpaceOnUse"
+       x1="2960.9993"
+       y1="1999.9406"
+       x2="1042.9462"
+       y2="1999.9406"
+       spreadMethod="repeat" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3"
+       id="linearGradient6"
+       gradientUnits="userSpaceOnUse"
+       x1="2960.9993"
+       y1="1999.9406"
+       x2="1042.9462"
+       y2="1999.9406"
+       spreadMethod="repeat" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="pt"
+     inkscape:zoom="0.7903125"
+     inkscape:cx="342.26967"
+     inkscape:cy="229.65599"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <g
+     transform="matrix(0.1,0,0,-0.1,0,400)"
+     fill="#000000"
+     stroke="none"
+     id="g2"
+     style="fill:url(#linearGradient4)">
+    <path
+       d="m 1950,3052 c -24,-42 -68,-117 -97,-166 -47,-81 -51,-92 -39,-110 11,-18 87,-148 449,-771 218,-376 268,-467 264,-478 -3,-6 -52,-64 -109,-128 -57,-64 -157,-176 -222,-250 -66,-74 -146,-162 -178,-196 -32,-34 -58,-66 -58,-72 0,-8 70,-11 225,-11 h 224 l 122,138 c 67,75 138,155 158,177 20,22 90,100 154,173 l 118,133 -19,32 c -25,41 -285,486 -506,867 -360,620 -431,740 -436,740 -3,0 -25,-35 -50,-78 z"
+       id="path1"
+       style="fill:url(#linearGradient5)" />
+    <path
+       d="m 1571,2402 c -85,-147 -200,-343 -254,-437 -181,-308 -270,-460 -274,-467 -2,-4 52,-69 119,-145 68,-75 178,-200 246,-277 191,-218 174,-206 286,-206 h 93 l 144,161 c 79,88 146,164 147,170 2,5 -62,9 -161,9 h -164 l -69,77 c -171,190 -213,239 -214,247 0,5 104,188 231,407 l 230,397 -97,166 c -54,91 -100,166 -103,166 -3,-1 -75,-121 -160,-268 z"
+       id="path2"
+       style="fill:url(#linearGradient6)" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-size:88.1814px;writing-mode:lr-tb;direction:ltr;fill:#072d65;fill-opacity:1;stroke:#072d65;stroke-width:7.34848;stroke-opacity:1"
+     x="322.21811"
+     y="235.87071"
+     id="text6"
+     transform="scale(0.98587332,1.0143291)"><tspan
+       sodipodi:role="line"
+       id="tspan6"
+       style="fill:#072d65;fill-opacity:1;stroke:#072d65;stroke-width:7.34848;stroke-opacity:1"
+       x="322.21811"
+       y="235.87071">GenCore</tspan></text>
+</svg>
