@@ -1,6 +1,7 @@
 html {
     background-color: #dee1ea;
     margin: 0;
+    font-family: Inter, Regular;
 }
 .main_menu {
     margin: 20px 0px 20px 20px;
@@ -49,10 +50,53 @@ html {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    gap: 6px;
     background: #203246;
     color: #ffffff;
     text-decoration: none;
     padding: 3px;
     border-radius: 10px;
+}
+.group_employees {
+    margin: 20px 20px;
+    display: flex;
+}
+.our-employees {
+    font-size: 48px;
+    text-align: center;
+}
+.eblock {
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin-right: 10px;
+    padding: 10px;
+}
+.eblock h3 {
+    font-size: 36px;
+    padding-bottom: 0px;
+    margin: 10px 0px 10px 15px;
+}
+.eblock p {
+    margin-top: 0;
+    font-size: 22px;
+    margin: 0px 0px 30px 15px;
+}
+.eblock img {
+    width: 50%;
+    height: 50%;
+}
+.employee-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    background: #203246;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 3px;
+    border-radius: 10px;
+    margin: 0px 0px 30px 15px;
 }
