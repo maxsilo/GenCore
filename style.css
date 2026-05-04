@@ -136,17 +136,13 @@ body {
     height: 50%;
 }
 .employee-button {
-    display: flex;
+    display: grid;
+    place-items: center;
     width: 30%;
-    align-items: center;
-    justify-content: left;
-    gap: 6px;
     background: #203246;
     color: #ffffff;
     text-decoration: none;
-    padding: 3px;
     border-radius: 10px;
-    margin: 0px 0px 30px 15px;
 }
 .sponsors {
     display: flex;
@@ -224,6 +220,11 @@ body {
 }
 .command-text {
     text-align: left;
+}
+.forms {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 form {
     max-width: 430px;
