@@ -310,6 +310,7 @@ footer span {
     margin-top: 50px;
     width: 50%;
 }
+/* Блок с гибридами */
 .contact-block {
     margin-left: 5%;
     width: 30%;
@@ -379,6 +380,7 @@ p.price {
     text-align: right;
     margin-right: 10px;
 }
+/* Блок с вакансиями */
 .vacancies-h1 {
     margin-left: 5%;
 }
@@ -386,4 +388,74 @@ p.price {
     margin-left: 5%;
     width: 60%;
     font-size: 24px;
+}
+.vacancies-blocks {
+  display: flex;
+  flex-direction: row;
+}
+.details {
+  position: relative;
+  display: block;
+  max-width: 650px;
+  margin: 0 auto 10px;
+  background: #3C5065;
+  color: #ffffff;
+  border-radius: 5px;
+  transition: 0.3s;
+  overflow: hidden;
+}
+
+.details::after {
+  position: absolute;
+  right: 24px;
+  top: 15px;
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  border-right: 3px solid #ffffff;
+  border-bottom: 3px solid #ffffff;
+  transform: rotate(-45deg);
+  transform-origin: center;
+  transition: .3s;
+}
+
+.details[open]::after {
+  transform: rotate(45deg);
+}
+
+.details[open] {
+  padding-bottom: 100px;
+}
+
+.details[open] .details_title {
+  margin-bottom: 32px;
+}
+
+.details_title {
+  background: #2B4055;
+  border-radius: 5px;
+  padding: 12px 24px;
+  font-size: 20px;
+  cursor: pointer;
+  list-style: none;
+  font-weight: 700;
+  transition: .3s;
+}
+
+.details_title::-webkit-details-marker {
+  display: none;
+}
+
+.details_content {
+  padding: 0 32px;
+  font-size: 18px;
+  margin-bottom: -60px;
+}
+
+.details_content p:last-child {
+  margin-bottom: 0;
+}
+.details_content p:first-child {
+  margin-top: 0;
 }
