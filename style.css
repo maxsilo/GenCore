@@ -5,9 +5,6 @@ html {
 body {
     margin: 0;
 }
-h2 {
-    padding-left: 125px;
-}
 .main_menu {
     margin: 20px 0px 20px 20px;
     position: relative;
@@ -113,17 +110,19 @@ h2 {
     color: #ffffff;
     text-decoration: none;
 }
+.employees {
+    background-color: #DEE1EA;
+}
 .group_employees {
     margin: 20px 20px;
     padding-left: 100px;
     padding-right: 100px;
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 50px;
 }
-.our-employees {
-    font-size: 48px;
-    text-align: center;
+.our_employees h2 {
+    margin-left: 6%;
 }
 .eblock {
     background: white;
@@ -131,8 +130,7 @@ h2 {
     display: flex;
     justify-content: start;
     flex-direction: column;
-    margin-right: 10px;
-    border: 1px soild black;
+    border: 1px solid #3A323280;
 }
 .eblock b {
     font-size: 36px;
@@ -142,7 +140,7 @@ h2 {
 .eblock p {
     margin-top: 0;
     font-size: 22px;
-    margin: 0px 0px 30px 15px;
+    margin: 0px 0px 10px 15px;
 }
 .eblock img {
     width: 100%;
@@ -165,6 +163,9 @@ h2 {
 .sponsors-sec {
     background-color: #e6e9f0;
 }
+.our_sponsors {
+    margin-left: 5%;
+}
 .sponsors {
     display: flex;
     justify-content: space-around;
@@ -177,10 +178,11 @@ h2 {
     text-align: center;
     background-color: white;
     border-radius: 10px;
+    border: 1px solid #3A323280;
 }
 .sponsor-block img {
-    width: 20%;
-    height: 20%;
+    width: 25%;
+    height: 25%;
     display: flex;
     align-items: left;
 }
@@ -192,18 +194,30 @@ h2 {
     margin: 0;
     padding-bottom: 10px;
 }
+.org-p {
+    font-size: 24px;
+    font-weight: 400;
+}
+.our_hybrids {
+    margin-left: 5%;
+}
+.hydrids-sec {
+    background: #F4F7FC;
+}
 .hybrids {
     margin: 20px 100px;
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 50px;    
+    background: linear-gradient(180deg, #CBD2DC 0%, rgba(203, 210, 220, 0.1) 63.28%);
 }
 .hybrid-block {
     background: white;
     position: relative;
     border-radius: 10px;
     flex: 1 0 0;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    border: 1px solid #3A323280;
 }
 .hybrid-block p {
     text-align: center;
@@ -216,14 +230,16 @@ h2 {
     border: 10px soild black;
 }
 .hybrid-block button {
+    width: 50%;
+    font-size: 16px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 4px 8px;
+    padding: 8px;
     background: #203145;
     border: 1px solid rgba(58, 50, 50, 0.5);
-    border-radius: 10px;
+    border-radius: 5px;
     color: #ffffff;
     text-decoration: none;
     margin: auto;
@@ -310,11 +326,12 @@ footer span {
     margin-top: 50px;
     width: 50%;
 }
-/* Блок с гибридами */
 .contact-block {
     margin-left: 5%;
+    text-align: center;
     width: 30%;
 }
+/* Блок с гибридами */
 .home-hybrids {
     margin: 20px 100px;
     display: flex;
@@ -326,12 +343,12 @@ footer span {
     position: relative;
     border-radius: 10px;
     flex: 1 0 0;
+    border: 2px solid #000000B2;
 }
 .home-block img {
     width: 100%;
     height: auto;
     border-radius: 10px 10px 0px 0px;
-    border: 10px soild black;
 }
 .home-hybrids h2 {
     text-align: center;
@@ -355,12 +372,12 @@ footer span {
     position: relative;
     border-radius: 10px;
     flex: 1 0 0;
+    border: 2px solid #000000B2;
 }
 .wild-block img {
     width: 100%;
     height: auto;
     border-radius: 10px 10px 0px 0px;
-    border: 10px soild black;
 }
 .wild-hybrids h2 {
     text-align: center;
@@ -371,7 +388,7 @@ footer span {
     font-size: 20px;
 }
 .our-projects {
-    padding-left: 10%;
+    padding-left: 5%;
 }
 .projects-header {
     text-align: center;
@@ -381,6 +398,9 @@ p.price {
     margin-right: 10px;
 }
 /* Блок с вакансиями */
+.vacancies {
+    margin-left: 5%;
+}
 .vacancies-h1 {
     margin-left: 5%;
 }
@@ -397,7 +417,7 @@ p.price {
   position: relative;
   display: block;
   max-width: 650px;
-  margin: 0 auto 10px;
+  margin: 0 25px 10px;
   background: #3C5065;
   color: #ffffff;
   border-radius: 5px;
@@ -439,7 +459,6 @@ p.price {
   font-size: 20px;
   cursor: pointer;
   list-style: none;
-  font-weight: 700;
   transition: .3s;
 }
 
@@ -458,4 +477,41 @@ p.price {
 }
 .details_content p:first-child {
   margin-top: 0;
+}
+/* Блок с главным гибридом */
+.about-project {
+    width: 50%;
+    margin-left: 5%;
+    font-size: 24px;
+}
+.about-project a {
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    gap: 20px;
+    background: #2b4055;
+    border: 1px solid rgba(58, 50, 50, 0.5);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #ffffff;
+}
+.features {
+    width: 50%;
+    margin-left: 5%;
+    font-size: 24px;
+}
+.detail-hybrid-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+    justify-content: center;
+    align-items: center;
+}
+.detail-hybrid-images img {
+    width: 25%; 
+    min-width: 100px;
+    object-fit: cover;
 }
