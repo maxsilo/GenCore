@@ -13,7 +13,7 @@
         <header>
             <section class="main_menu">
                 <div class="logo">
-                    <img src="images/gencore_icon.svg" alt="GenCore Logo" />
+                    <img src="images/gencore_icon.svg" alt="GenCore Logo">
                 </div>
                 <nav class="main_nav">
                     <ul>
@@ -29,8 +29,22 @@
                         <p>Стать спонсором</p>
                     </a>
                 </div>
+                <button class="burger_button" id="burgerBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <nav class="mobile_menu" id="mobileMenu">
+                <ul>
+                    <li><a href="index.html">О лаборатории</a></li>
+                    <li><a href="projects.html">Проекты</a></li>
+                    <li><a href="vacancies.html">Вакансии</a></li>
+                    <li><a href="detail-hybrid.html">Новости</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+                </nav>
             </section>
-        </header>
+        </header> 
         <main>
             <section>
                 <h1 class="vacancies-h1">Присоединяйтесь к нашей команде!</h1>
@@ -128,5 +142,23 @@
                 <b><p>Г.Москва, ул.Научная, д.34</p></b>
             </div>
         </footer>
+        <script>
+        const burgerBtn = document.getElementById('burgerBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+
+        burgerBtn.addEventListener('click', function() {
+            burgerBtn.classList.toggle('active');
+            mobileMenu.classList.toggle('active');
+        });
+
+        // Закрытие меню при клике на ссылку
+        const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                burgerBtn.classList.remove('active');
+                mobileMenu.classList.remove('active');
+            });
+        });
+        </script>
     </body>
 </html>

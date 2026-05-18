@@ -176,7 +176,6 @@ body {
 }
 .button-main-hydrid {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 8px;
@@ -197,7 +196,6 @@ body {
     padding-left: 100px;
     padding-right: 100px;
     display: flex;
-    flex-direction: row;
     gap: 50px;
 }
 .our_employees h2 {
@@ -263,11 +261,9 @@ body {
     width: 25%;
     height: 25%;
     display: flex;
-    align-items: left;
 }
 .sponsor-block span {
     display: flex;
-    flex-direction: row;
 }
 .org-text {
     color: #19202ACC;
@@ -308,7 +304,6 @@ body {
 .hybrids {
     margin: 20px 100px;
     display: flex;
-    flex-direction: row;
     gap: 50px;    
     background: linear-gradient(180deg, #CBD2DC 0%, rgba(203, 210, 220, 0.1) 63.28%);
 }
@@ -348,7 +343,6 @@ body {
 .command {
     width: auto;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 50px 100px 50px 100px;
@@ -358,7 +352,6 @@ body {
 }
 .command a {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 15px 20px;
@@ -374,7 +367,6 @@ body {
 }
 .forms {
     display: flex;
-    flex-direction: row;
     align-items: center;
     margin: 5%;
 }
@@ -417,7 +409,6 @@ button:hover {
 footer {
     background: linear-gradient(270deg, #09111e 0%, #49515e 98.81%), #1f2733;
     display: flex;
-    flex-direction: row;
 }
 footer p {
     color: rgba(255, 255, 255, 0.5);
@@ -432,45 +423,89 @@ footer span {
     text-align: center;
     width: 30%;
 }
-@media (max-width: 480px) {
+@media (max-width: 375px) {
+    .text_hybrid {
+        width: 50%;
+    }
+    .text_hybrid h1 {
+        font-size: 24px;
+    }
+    .text_hybrid p {
+        font-size: 18px;
+    }
     .group_employees {
-        margin: 20px 20px;
-        padding-left: 100px;
-        padding-right: 100px;
-        display: flex;
         flex-direction: column;
-        gap: 50px;
+    }
+    .command {
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .employee-button {
+        width: 50%;
+        font-size: 10px;
+    }
+    .command-text {
+        text-align: center;
+    }
+    .main_nav {
+        display: none;
+    }
+    .burger_button {
+        display: flex;
+    }
+    .mobile_menu {
+        display: flex;
+    }
+    .logo {
+        width: 40%;
+    }
+    .button {
+        font-size:10px;
+        width: auto;
+    }
+    .button-main-hydrid a {
+        font-size: 8px;
+    }
+    .eblock b {
+        font-size: 12px;
+    }
+    .eblock p {
+        font-size: 10px;
+    }
+    .hybrids {
+        flex-direction: column;
+    }
+    .sponsors {
+        display: flex;
+        justify-content: space-around;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .sponsor-block {
+        display: block;
+        margin: 10px;
+    }
+    .sponsor-block p {
+        display: none;
+    }
+    .sponsor-block span {
+        display: flex;
+        border: 1px soild #000000;
+        border-radius: 50px;
+    }
+    .sponsor-block img {
+        width: 50%;
+        height: 50%;
+        display: flex;
     }
     .forms {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: 5%;
-    }
-    .command {
-        width: auto;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        padding: 50px 100px 50px 100px;
-        background: linear-gradient(270deg, #09111e 0%, #49515e 98.81%);
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        color: #ffffff;
-    }
-    .command-text {
-    text-align: center;
-    }
-    .main_nav {
-        display: none;
-    }
-    .logo {
-        width: 30%;
-    }
-    .button {
-        font-size:10px;
-        width: auto;
     }
     footer span {
         margin-left: 20px;
@@ -481,23 +516,13 @@ footer span {
         width: 50%;
         font-size: 10px;
     }
-    .main_nav {
-        display: none;
-    }
-    .burger_button {
-        display: flex;
-    }
-
-    .mobile_menu {
-        display: flex;
-    }
+    
 
 }
 /* Блок с гибридами */
 .home-hybrids {
     margin: 20px 100px;
     display: flex;
-    flex-direction: row;
     gap: 10px;
 }
 .home-block {
@@ -526,7 +551,6 @@ footer span {
 .wild-hybrids {
     margin: 20px 100px;
     display: flex;
-    flex-direction: row;
     gap: 10px;
 }
 .wild-block {
@@ -559,6 +583,22 @@ p.price {
     text-align: right;
     margin-right: 10px;
 }
+@media (max-width: 375px) {
+    .home-hybrids {
+        flex-direction: column;
+    }
+    .wild-hybrids {
+        flex-direction: column;
+    }
+    .our-projects {
+        padding: 0;
+        font-size: 24px;
+        text-align: center;
+    }
+    .projects-header {
+        font-size: 20px;
+    }
+}
 /* Блок с вакансиями */
 .vacancies {
     margin-left: 5%;
@@ -574,7 +614,6 @@ p.price {
 }
 .vacancies-blocks {
   display: flex;
-  flex-direction: row;
 }
 .details {
   position: relative;
@@ -647,6 +686,22 @@ p.price {
         flex-direction: column;
         gap: 50px;
     }
+    .vacancies-h1 {
+        font-size: 16px;
+    }
+    .vacancies-main-p {
+        font-size: 12px;
+        width: 80%;
+    }
+    .vacancies h2 {
+        font-size: 16px;
+    }
+    .details_title {
+        font-size: 16px;
+    }
+    .details_content {
+        font-size: 12px;
+    }
 }
 /* Блок с главным гибридом */
 .about-project {
@@ -657,7 +712,6 @@ p.price {
 .about-project a {
     width: 25%;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 10px 10px;
